@@ -1,0 +1,7 @@
+as sqrt sqrt
+reset
+set R0 5
+ld sqrt
+break set INFINITE_LOOP
+continue
+set R2 0

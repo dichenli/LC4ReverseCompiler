@@ -1,0 +1,10 @@
+clear
+reset
+
+as test my_eighth_c_program  # Links 3 .ASM files into 1 .OBJ
+ld test				 	 # loads the linked .OBJ
+
+as os os	# don't forget the OS!
+ld os
+
+break set END
